@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Poppins:wght@100&display=swap" rel="stylesheet">
+
+    <style>  
+    *{
+        font-family: 'Poppins', sans-serif;
+    }
+        body{
+            height: 600px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            background-size: cover;
+            background: url(./black.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+
+        .login{
+            margin-top: 50px;
+            padding: 10px 20px 30px 20px;
+            width: 300px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.178);
+            backdrop-filter: blur(5px);
+            border-radius: 10px;
+        }
+        .login__text{
+            margin-bottom: 30px;
+            font-weight: 700;
+            font-size: 30px;
+            color: rgb(247, 233, 233);
+        }
+        .login__holder{
+            height: 50px;
+            width: 100%;
+            display: flex;
+            position: relative;
+            margin-bottom: 20px;
+        }
+        input{
+            width: 100%;
+            padding-left: 45px;
+            font-size: 15px;
+            outline: none;
+            border: none;
+            color: #ffffff;
+            border-radius: 8px;
+            background: rgba(19, 18, 18, 0);
+            backdrop-filter: blur(10px);
+        }
+        ::placeholder{
+            color:#e0d2d2
+        }
+        .login__holder span{
+            position: absolute;
+            width: 50px;
+            line-height: 50px;
+            color: #ffffff;
+        }
+        .btn-holder{
+            margin-top: 35px;
+        }
+        .login__btn{
+            
+            padding: 10px 127px 10px 127px;
+            background: rgba(255,255,255,0.05);backdrop-filter: blur(10px);         text-decoration: none;
+            border-radius: 8px;
+            text-align: center;
+            color: #ffffff;
+            font-weight: bold;
+        }
+        .login__btn:hover{
+            color: black;
+            background-color: white;
+        }
+        .login__or{
+            color: yellow;
+        }
+        .login__link{
+            margin-left: 10px;
+            padding: 5px 20px;
+            background: rgba(255,255,255,0.05);backdrop-filter: blur(10px);         text-decoration: none;
+            border-radius: 8px;
+            text-align: center;
+            color: white;
+            font-weight: 400;
+        }
+        .login__link:hover{
+            color: white;
+            background-color: black;
+            font-weight: bold;
+        }
+        .icon{
+            margin-right:5px ;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="log">
+    <div class="login">
+        <form action="">
+            <p class="login__text">Foolish Developer</p>
+            <div class="login__holder">
+                <span class="fa fa-user"></span>
+                <input type="email" name="Email" id="pass" placeholder="Email Id">
+            </div>
+            <div class="login__holder">
+                <span class="fa fa-lock"></span>
+                <input type="password" name="Password" id="pass" placeholder="Password">
+            </div>
+            <div class="btn-holder">
+            <a href="#" class="login__btn">Log in</a>
+            </div>
+            <p class="login__or">or</p>
+            <a href="#" class="login__link"><span class="icon"><i class="fa-brands fa-facebook-f" style="color: #f5f7ff;"></i></span> Facebook</a>
+            <a href="#" class="login__link"><span class="icon"><i class="fa-brands fa-google" style="color: #eeeff1;"></i></span> Google</a>
+        </form>
+    </div>
+</div>
+</div>
+</body>
+</html>

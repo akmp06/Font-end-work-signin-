@@ -1,0 +1,23 @@
+.multiple-backgrounds {
+width: 800px;
+height: 500px;
+background-image: 
+url(./sad-boy.png), /* First image */
+url(./Little-girl.png), /* Second image */
+url(./small-boy-colorful.png); /* Third image */
+
+background-position: 
+top left,      /* Position of the first image */
+bottom right,  /* Position of the second image */
+center;        /* Position of the third image */
+
+background-repeat: 
+repeat-y,     /*  Repeat vertically for the first image */
+repeat-y,      /* Repeat vertically for the second image */
+no-repeat;      /* No repeat for the third image  */
+
+background-size: 
+200px,         /* Width and height of the first image */
+auto,          /* Automatic size for the second image */
+cover;         /* Cover the entire div for the third image */
+}
